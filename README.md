@@ -52,6 +52,8 @@ Users should be able to:
 
 - To reduce the height of an element in a flex-box, set to column. Specify the max-height of the specific element.
 
+- I learned about the html img data-src attribute. I used it to store the src value for the social-icon svgs with color such that when the social-icons are hovered their original srcs are replaced with the data-src value.
+
 ### Continued development
 
 I really hope to get better at using flex box for complex designs and follow best practices for DOM manipulation.
