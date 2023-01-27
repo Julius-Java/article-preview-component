@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Front-End Mentor](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Solution URL: [Front-End Mentor](https://www.frontendmentor.io/solutions/article-preview-component-laOoeueLSJ)
+- Live Site URL: [Github Pages](https://julius-java.github.io/article-preview-component/)
 
 ## My process
 
