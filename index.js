@@ -14,7 +14,7 @@ $(document).ready(function () {
 
             setTimeout(() => {
                 $('.icon-mobile').each(function(i) {
-                    $(this).css('animation-delay', (i * 0.4) + 's');
+                    $(this).css('animation-delay', (i * 0.2) + 's');
                     $(this).addClass('pop');
                 });
             }, 200);
@@ -46,7 +46,8 @@ $(document).ready(function () {
 
             $('.popup').slideToggle(300);
 
-            var shareIconAttr = $('.share img').attr('src')
+            var shareIconAttr = $('.share img').attr('src');
+
             var shareIcon = $('.share img');
 
             if (shareIconAttr == './images/icon-share.svg') {
@@ -57,7 +58,7 @@ $(document).ready(function () {
 
             setTimeout(() => {
                 $('.social-icon').each(function(i) {
-                    $(this).css('animation-delay', (i * 0.4) + 's');
+                    $(this).css('animation-delay', (i * 0.2) + 's');
                     $(this).addClass('pop');
                 });
             }, 300);
@@ -66,14 +67,14 @@ $(document).ready(function () {
                 var currentSrc = $(this).attr('src');
                 $(this).attr('src', $(this).data('hover'));
                 $(this).data('hover', currentSrc);
-                $(this).animate({width: '+=5%', height: '+=5%'}, 'fast');
+                $(this).animate({width: '+=4%', height: '+=4%'}, 'fast');
             }, function () {
                 var currentSrc = $(this).attr('src');
                 $(this).attr('src', $(this).data('hover'));
                 $(this).data('hover', currentSrc);
-                $(this).animate({width: '-=5%', height: '-=5%'}, 'fast');
+                $(this).animate({width: '-=4%', height: '-=4%'}, 'fast');
             })
-    
+
         })
     }
 
